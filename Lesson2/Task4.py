@@ -5,8 +5,7 @@ print('Работа с разделением строк\n')
 # test_list = 'First Second Third and etc.'
 
 main_arr = input("Введите вашу строку: ")
-res_list = main_arr.split(' ')
 
 print('-'*15)
-for step in res_list:
+for step in main_arr.split(' '):
     print(f'{step[0:10]}')
