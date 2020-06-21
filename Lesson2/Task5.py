@@ -2,11 +2,14 @@ print('Пятое задание')
 print('-'*15)
 print('Структура "Рейтинг"\n')
 
+
 exit_chk = True
 test_list = [11, 9, 7, 7, 4, 3]
 tmp_list = []
 
+
 print("Для выхода введите 'Exit'\n")
+
 
 while exit_chk:
     new_elem = input("Укажите новый элемент рейтинга: ")

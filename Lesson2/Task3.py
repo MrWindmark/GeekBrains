@@ -7,5 +7,6 @@ list_month_seasom = ["Зима", "Зима", "Весна", "Весна", "Вес
 
 month = input("Укажите номер месяца: ")
 
+
 print(dict_month_season.get(month))
 print(list_month_seasom[int(month)-1])

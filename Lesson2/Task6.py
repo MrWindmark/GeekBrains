@@ -31,6 +31,7 @@ print("3 - Для завершения работы")
 is_it_work = True
 # goods_list = []
 
+
 while is_it_work:
     print("-" * 20)
     menu_val = input("Желаемое действие: ")

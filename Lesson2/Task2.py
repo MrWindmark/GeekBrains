@@ -11,8 +11,6 @@ list_len = int(input('Введите число элементов списка:
 for num in range(0, list_len):
     main_list.append(input(f'Введите {num+1}-й элемент: '))
 
-# print(f'\nВведённый список: \n {main_list}')
-
 for step in range(0, len(main_list), 2):
     temp_list = main_list[step:(step+2)]
     # если в срез будет выходить за пределы, то в нём будет всего 1 элемент и "реверс" ничего не изменит
