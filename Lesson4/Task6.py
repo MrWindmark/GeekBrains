@@ -12,5 +12,5 @@ count_start = int(argv[1])
 for step in itertools.islice(itertools.count(count_start), 15):
     print(step)
 print('-'*10)
-for step in itertools.islice(itertools.cycle('HELLO'), 18):
+for step in itertools.islice(itertools.cycle('HELLO'), count_start + 10):
     print(step)
